@@ -1,0 +1,402 @@
+body{
+    background-color: rgb(236, 240, 243);
+    font-family: rubi;
+}
+.back{
+    width:30%;
+    height: 700px;
+    background-color: rgb(146, 65, 200);
+    border-radius: 0px 0px 250px 100px;
+    position: relative;
+    top: -10px;
+}
+.txt{
+    width:70%;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+}
+.h1{
+    padding-top: 150px;
+    text-align: center;
+
+}
+.p1{
+    width:350px;
+    padding-left: 350px;
+    opacity: 0.5;
+}
+.small{
+    width:25%;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 1px;
+    font-size: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: -650px;
+    left: 300px;
+
+
+}
+.sous{
+    width:95%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(236, 240, 243);
+   height: 600px;
+
+}
+.top{
+    background-color:rgb(146, 65, 200);
+    border-radius: 20px 20px 0px 0px;
+    color:white;
+}
+.top ul{
+    display: flex;
+    flex-direction: row;
+}
+.top li{
+    display: inline;
+}
+.top h3{
+    position: relative;
+    top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.top p{
+    font-size: 10px;
+    opacity: 0.5;
+    position: relative;
+    top: -5px;
+
+}
+.img3{
+    width:40px;
+    border: solid white 3px;
+    border-radius: 50%;
+    position:relative;
+    top:10px;
+    left:-20px;
+
+}
+.img1{
+    width:20px;
+    position:relative;
+    top:20px;
+    left:-30px;
+}
+.img2{
+    width:20px;
+    position:relative;
+    top:20px;
+    
+    padding-left: 80px;
+
+}
+.ppp{
+    width: 130px;
+    background-color:rgb(231, 214, 231) ;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 1px;
+    margin-bottom: 10px;
+    color: rgb(97, 2, 97);
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100Px;
+}
+.img li{
+    display: inline;
+}
+.img img{
+    width:50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.ppp1{
+    background-color: white;
+    padding-top: 1px ;
+    padding-bottom: 1PX;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    margin-left: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.ppp2{
+    background-color: white;
+    padding-top: 1px ;
+    padding-bottom: 1PX;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 120px;
+    margin-left: 160px;
+    border-radius: 10px;
+
+}
+.pp{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(146, 65, 200);
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 20px 10px 10px 5px;
+    padding:1px 10px;
+    color:white;
+}
+.pp li{
+    display: inline;
+}
+.pp img{
+    width: 15px;
+    position: relative;
+    top: 7px;
+}
+.p6{
+    padding-left: 10px;
+}
+.p7{
+    padding-left: 40px;
+}
+.message{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    width: 290px;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+.message li{
+    display: inline;
+}
+.tcc{
+    border: solid 1px white;
+    opacity: 0.5;
+}
+.button{
+    background-color: rgb(40, 3, 85);
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 100px;
+}
+.button img{
+    width: 10px;
+}
+@font-face{
+    font-family: "rubi";
+    src:url("../font/Rubik-Regular.ttf")
+}
+@media all and (max-device-width:480px) {
+        .all{
+        display: flex;
+        flex-direction:column;
+    }
+    .back{
+        width:50%;
+        height: 900px;
+        background-color: rgb(146, 65, 200);
+        border-radius: 0px 0px 550px 0px;
+        position: relative;
+        top: -10px;
+    }
+    body{
+        font-size: 40px;
+    }
+    .small{
+        width:60%;
+        background-color: white;
+        border-radius: 100px;
+        padding-top: 1px;
+        font-size: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        top: -1900px;
+        left: 200px;
+    }
+    .p1{
+        width:800px;
+        opacity: 0.5;
+        
+            padding-left: 50px;
+            text-align: center;
+            
+        }
+        .h1{
+          padding-left: 100px;
+          
+
+        }
+        .sous{
+            width:95%;
+            margin: auto;
+            border-radius: 100px;
+            background-color: rgb(236, 240, 243);
+           height: 1200px;
+          
+        
+        }
+        .img3{
+            width:80px;
+            border: solid white 3px;
+            border-radius: 50%;
+            position:relative;
+            top:20px;
+            left:-20px;
+        
+        }
+        .img1{
+            width:60px;
+            position:relative;
+            top:30px;
+            left:-30px;
+        }
+        .img2{
+            width:60px;
+            position:relative;
+            top:30px;
+            
+            padding-left: 80px;
+        
+        }
+        .top h3{
+            position: relative;
+            top: 5px;
+            font-size: 20px;
+            width: 200px;
+            font-weight: bold;
+            padding-left: 20px;
+        
+        }
+        .top p{
+            font-size: 20px;
+            opacity: 0.5;
+            position: relative;
+            top: -5px;
+            padding-left: 20px;
+
+        }
+        .top{
+            background-color:rgb(146, 65, 200);
+            border-radius: 100px 100px 0px 0px;
+            color:white;
+        }
+        .ppp{
+            width: 50%;
+            background-color:rgb(231, 214, 231) ;
+            border-radius: 30px;
+            position: relative;
+            left: 10px;
+            padding-top: 10px;
+            padding-bottom: 1px;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-bottom: 10px;
+            color: rgb(97, 2, 97);
+            font-size: 20px;
+        }
+        .img{
+            display: flex;
+            flex-direction: row;
+            padding-left: 170Px;
+        }
+        .img li{
+            display: inline;
+        }
+        .img img{
+            width:100px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .ppp1{
+            background-color: white;
+            padding-top: 1px ;
+            padding-bottom: 1PX;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 200px;
+            margin-left: 300px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+        .ppp2{
+            background-color: white;
+            padding-top: 1px ;
+            padding-bottom: 1PX;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 120px;
+            margin-left: 380px;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+        .pp{
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(146, 65, 200);
+            width: 60%;
+            margin-left: 30px;
+            margin-top: 30px;
+            border-radius: 50px 25px 25px 10px;
+            padding:10px 50px;
+            color:white;
+            font-size: 20px;
+        }
+        .pp li{
+            display: inline;
+        }
+        .pp img{
+            width: 50px;
+            position: relative;
+            top: 7px;
+        }
+        .p7{
+            font-size: 23px;
+            padding-left: 100px;
+        }
+        .message{
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            border-radius: 50px;
+            width: 90%;
+            padding: 10px 10px;
+            margin-left: 10px;
+        
+        }
+        .message li{
+            display: inline;
+        }
+        .tcc{
+            border: solid 1px white;
+            opacity: 0.5;
+            font-size: 20px;
+            padding-top: 20px;
+
+        }
+        .button{
+            background-color: rgb(40, 3, 85);
+            border-radius: 50%;
+            padding: 5px;
+            margin-left: 200px;
+        }
+        .button img{
+            width: 60px;
+        }
+        .txt{
+            padding-top: 400px;
+        }
+}
